@@ -338,7 +338,7 @@ $(document).ready(function() {
 	// 07. COUNTDOWN
 	//===================================================================================
 	var theday = new Date();
-	theday = new Date(2018, 11, 19);
+	theday = new Date(2023, 5, 28);
 	$('#countdown').countdown({until: theday, format: 'WDHMS'});
 	$('#countdown').countdown($.countdown.regionalOptions['custom-label']); 
 		 
@@ -866,4 +866,4 @@ $(document).ready(function() {
 	});
 	
 });
-	 
+
