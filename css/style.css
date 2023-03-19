@@ -2816,9 +2816,14 @@ footer .image-divider.fixed-height{
 	border-right:1px solid #8b8b8b
 }
 
-#map-canvas{
-	height:560px; 
-	width:100%; 
+#bride-party-map-canvas{
+	height:560px;
+	width:100%;
+}
+
+#groom-party-map-canvas{
+	height:560px;
+	width:100%;
 }
 
 /* ----------------------------------------------*/
