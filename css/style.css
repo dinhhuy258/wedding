@@ -1,19 +1,19 @@
 @charset "utf-8";
 
-/*============================== 
+/*==============================
 	- Template Name: FOREVER - Responsive HTML Wedding Template
 	- Author: DoubleEight
 	- Version: 1.02
 	- Website: www.dethemes.com
-================================= */	
+================================= */
 
-/*---------------------- 
+/*----------------------
 	Stylesheet Guide
 ------------------------
 00. PRELOADER
 
 01. GENERAL
-			
+
 02. NAV BAR
 	02.1 Width & Color
 		02.1.1 Fixed Width
@@ -25,7 +25,7 @@
 		02.2.1 Nav Center
 		02.2.2 Nav Left
 		02.2.3 Nav Right
-		
+
 03. NAV MENU
 	03.1 Parent Menu
 		03.1.1 Transparent
@@ -35,7 +35,7 @@
 		03.2.2 Child-Parent Arrow
 		03.2.3 More Child
 	03.3 Mobile Nav
-	
+
 04. SIDE NAV BAR
 	04.1 Menuicon Bar Width & Position
 		04.1.1 Fixed Width
@@ -48,11 +48,11 @@
 	04.3 Sidebar Menu
 		04.3.1 Sidebar
 		04.3.2 Sidebar Header
-		04.3.3 Parent Menu		
+		04.3.3 Parent Menu
 		04.3.4 Child Menu
 		04.3.5 Child-Parent Arrow Icon
 		04.3.6 More Child Menu
-		
+
 05. LOGO
 	05.1 CSS Logo
 	05.2 IMG Logo
@@ -64,7 +64,7 @@
 	06.3 Main Slider Slide-Image
 	06.4 Main Slider Slide-Video
 	06.5 Main Slider Title
-		06.5.1 Outter Wrapper 
+		06.5.1 Outter Wrapper
 		06.5.2 Inner Wrapper
 		06.5.3 Title Wrapper
 		06.5.4 Title Alignment
@@ -76,21 +76,21 @@
 		06.9.1 Zoom
 		06.9.2 Left-Right
 	06.10 Video Audio Control
-		
+
 07. PAGE
 	07.1 Page Layout
 		07.1.1 Page Without Slider
 		07.1.2 Page With Slider
 		07.1.3 Page With Banner
 		07.1.4 Page With Full Gallery
-		07.1.5 Page With Outside Bottom Bar 
+		07.1.5 Page With Outside Bottom Bar
 	07.2 Page Element
 		07.2.1 Page Title Wrapper
 		07.2.2 Section Title Wrapper
 		07.2.3 Icon Title Wrapper
 		07.2.4 Title-Excerpt White Box
-		07.2.5 Blurb Wrapper		
-		07.2.6 Align Middle Wrapper	
+		07.2.5 Blurb Wrapper
+		07.2.6 Align Middle Wrapper
 		07.2.7 Image & Video Divider
 		07.2.8 Space & Line Divider
 		07.2.9 Heart Divider
@@ -103,25 +103,25 @@
 08. ICON
 	08.1 Size
 	08.2 Shape
-		08.2.1 Default	
-		08.2.2 Circle, Rounded, Square	
-	08.3 Effect Zoom 
+		08.2.1 Default
+		08.2.2 Circle, Rounded, Square
+	08.3 Effect Zoom
 	08.4 Effect Rotate
-	08.5 Effect Square/Rounded To Circle		
-			
+	08.5 Effect Square/Rounded To Circle
+
 09. PHOTO ITEM
 	09.1 Image
 	09.2 Layer
 		09.2.1 Layer : Second Image
-		09.2.2 Layer : Black Overlay 
+		09.2.2 Layer : Black Overlay
 		09.2.3 Layer : Photo Caption
-		09.2.4 Layer : Icon / Button Link  
+		09.2.4 Layer : Icon / Button Link
 	09.3 on Hover Animation
 		09.3.1 on Hover Animation Duration
-		09.3.2 on Hover Animation Delay	
-		09.3.3 on Hover Zoom In	
+		09.3.2 on Hover Animation Delay
+		09.3.3 on Hover Zoom In
 		09.3.4 on Hover Zoom In and Rotate
-		09.3.5 on Hover Fade Out		
+		09.3.5 on Hover Fade Out
 
 10. MASONRY GALLERY
 	10.1 Three Column No Gutter
@@ -129,8 +129,8 @@
 	10.3 Four Column No Gutter
 	10.4 Four Column With Gutter
 	10.5 Five Column No Gutter
-	10.6 Five Column With Gutter	
-	
+	10.6 Five Column With Gutter
+
 11. FORM
 	11.1 Form Group
 	11.2 Form Control
@@ -140,15 +140,15 @@
 	11.6 Checkbox and Radio(Custom)
 	11.7 Select Option
 	11.8 Message
-	11.9 Validation	
-		
+	11.9 Validation
+
 12. HOME PAGE
 	12.1 Couple Section
 	12.2 Location & Countdown Section
 	12.3 The Wedding Section
 	12.4 RSVP Section
 	12.5 Footer Section
-	
+
 13. OTHER PAGE
 	13.1 LOCATION PAGE
 	13.2 RSVP-2 PAGE
@@ -157,23 +157,23 @@
 	13.5 BLOG PAGE
 
 14. ONEPAGE SECTION
-	14.1 Slider Section		
-	14.2 Couple Section	
+	14.1 Slider Section
+	14.2 Couple Section
 	14.3 Our Story Section
 	14.4 Where When Section
 	14.5 Gallery Section
 	14.6 Don't Miss It / Countdown Section
 	14.7 More Events Section
-	14.8 Groomsmen Section	
+	14.8 Groomsmen Section
 	14.9 Bridesmaid Section
-	14.10 Gift Section	
+	14.10 Gift Section
 	14.11 RSVP Section
 
 15. PLUGIN CUSTOM
 	15.1 Owl Carousel
 	15.2 Magnific Popup
-		
-99. OPTIONS SETTING	
+
+99. OPTIONS SETTING
 
 16. MEDIA SCREEN
 	- @media (min-device-width: 800px) and (max-device-width: 1280px)
@@ -203,7 +203,7 @@
 /* 01. GENERAL			 						 */
 /*===============================================*/
 body{
-	font-family: 'Arvo', serif;	
+	font-family: 'Arvo', serif;
 	color:#6a6a6a;
 	font-size:15px;
 }
@@ -217,7 +217,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
 	color:#333333;
 }
 
-h1 a:hover, h2 a:hover, h3 a:hover, 
+h1 a:hover, h2 a:hover, h3 a:hover,
 h4 a:hover, h5 a:hover, h6 a:hover{
 	color:#f0394d;
 }
@@ -261,11 +261,11 @@ h6, .h6{
 h1.inline, h2.inline, h3.inline,
 h4.inline, h5.inline, h6.inline{
 	display:inline;
-	vertical-align:middle; 
+	vertical-align:middle;
 }
 
 p{
-	font-family: 'Arvo', serif;	
+	font-family: 'Arvo', serif;
 	font-size:15px;
 	line-height:26px;
 	margin-bottom:25px;
@@ -311,7 +311,7 @@ img.with-border{
 /* 02. NAV BAR  	 							 */
 /*===============================================*/
 #nav-header{
-	z-index:1000; 
+	z-index:1000;
 }
 
 #nav-bar{
@@ -319,7 +319,7 @@ img.with-border{
 	height:145px;
 	width:100%;
 	z-index:1000;
-	
+
 }
 
 /* ----------------------------------------------*/
@@ -332,8 +332,8 @@ img.with-border{
 	position:relative;
 	height:inherit;
 	width:1170px;
-	margin:0 auto;	
-	padding:0 30px;	
+	margin:0 auto;
+	padding:0 30px;
 }
 
 /* 02.1.2 Fluid-width 							 */
@@ -342,7 +342,7 @@ img.with-border{
 	position:relative;
 	height:inherit;
 	width:100%;
-	padding:0 30px;	
+	padding:0 30px;
 }
 
 /* 02.1.3 Top Bar 								 */
@@ -350,14 +350,14 @@ img.with-border{
 #nav-bar.top-bar{
 	position:absolute;
 	/*background-color:transparent;*/
-	margin:auto; 
-	left:0; 
+	margin:auto;
+	left:0;
 	right:0;
 }
 
 #nav-bar.top-bar.stick-it{
 	position:fixed;
-	height:145px; 
+	height:145px;
 	width:100%;
 	background-color:#FFF;
 	z-index:1500;
@@ -380,25 +380,25 @@ img.with-border{
 
 #nav-bar.bottom-bar.stick-it{
 	position:fixed;
-	height:145px; 
+	height:145px;
 	width:100%;
 	background-color:#FFF;
 	z-index:1500;
 	top:0;
 	bottom:auto;
 	/*-webkit-transform: translateZ(0)*/
-	
+
 }
 
 /* 02.1.5 Transparent & Block Color 			 */
 /* ----------------------------------------------*/
 #nav-bar.transparent{
-	/*position:relative;*/ 
+	/*position:relative;*/
 	background-color:transparent;
 }
 
 #nav-bar.block-color{
-	/*position:relative; */ 
+	/*position:relative; */
 	background-color:#FFF;
 }
 
@@ -411,15 +411,15 @@ img.with-border{
 /* ----------------------------------------------*/
 
 .logo-wrapper{
-	position:relative; 
-	width:60px; 
-	height:60px; 
-	margin-top:40px; 
+	position:relative;
+	width:60px;
+	height:60px;
+	margin-top:40px;
 }
 
-#nav-menu{	
-	list-style-type:none; 
-	margin:0; 
+#nav-menu{
+	list-style-type:none;
+	margin:0;
 	padding:45px 0 0 0;
 	font-family: 'Oswald', sans-serif;
 	font-size:13px;
@@ -429,16 +429,27 @@ img.with-border{
 /* 02.2.1 Nav Center 							 */
 /* ----------------------------------------------*/
 #nav-bar.nav-center .logo-wrapper{
-	position:absolute; 
-	margin:auto; 
-	top:0; 
-	bottom:0; 
-	left:0; 
-	right:0;
+   margin:auto;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+}
+
+#nav-bar.nav-center .logo-wrapper a{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   padding: 0;
+   top: 0;
+   left: 0;
+   display: block;
 }
 
 #nav-bar.nav-center #nav-menu{
-	text-align:center; 
+   text-align:center;
+   display: flex;
+   justify-content: center;
 }
 
 /* 02.2.2 Nav Left 								 */
@@ -475,7 +486,7 @@ img.with-border{
 /* ----------------------------------------------*/
 #nav-menu > li{
 	position:relative;
-	display:inline;	
+	display:inline;
 }
 
 #nav-menu > li:before{
@@ -538,7 +549,7 @@ img.with-border{
 #nav-menu ul{
 	position:absolute;
 	display:none;
-	width:200px;	
+	width:200px;
 	left:0;
 	list-style-type:none;
 	padding:0;
@@ -560,7 +571,7 @@ img.with-border{
 	width:100%;
 	background-color:#FFF;
 	border-bottom:solid thin #f4f2f2;
-}   
+}
 
 #nav-menu ul li a:hover{
 	background-color:#f0394d;
@@ -580,14 +591,14 @@ img.with-border{
 
 /* 03.2.2 Child-Parent Arrow 					 */
 /* ----------------------------------------------*/
-#nav-menu li > ul li a:after { 
-	content: '>'; 
+#nav-menu li > ul li a:after {
+	content: '>';
 	position:absolute;
 	right:15px;
-} 
+}
 
-#nav-menu li > ul li a:only-child:after { 
-	content: ''; 
+#nav-menu li > ul li a:only-child:after {
+	content: '';
 }
 
 /* 03.2.3 More Child 						  	 */
@@ -627,7 +638,7 @@ img.with-border{
 /*-----------------------------------------------*/
 #menuicon-bar{
 	position:absolute;
-	height:145px; 
+	height:145px;
 	z-index:1000;
 	background-color:transparent;
 	margin:auto;
@@ -676,7 +687,7 @@ img.with-border{
 /* 04.2.1 Standard Menu Icon */
 /* ----------------------------------------------*/
 #menu-icon{
-	margin-top:50px; 
+	margin-top:50px;
 	display:block;
 }
 
@@ -684,7 +695,7 @@ img.with-border{
 }*/
 
 #menu-icon a i{
-	color:#666; 
+	color:#666;
 	font-size:24px;
 }
 
@@ -693,7 +704,7 @@ img.with-border{
 }
 
 #menu-icon.white a i{
-	color:#FFF; 
+	color:#FFF;
 	font-size:24px;
 }
 
@@ -706,7 +717,7 @@ img.with-border{
 /* ----------------------------------------------*/
 #sticky-menuicon{
 	display:none;
-	position:fixed; 	
+	position:fixed;
 	z-index:1000;
 	top:30px;
 	-webkit-transform: translateZ(0);
@@ -714,7 +725,7 @@ img.with-border{
 
 
 #sticky-menuicon a{
-	margin-top:12px; 
+	margin-top:12px;
 	display:block;
 	background-color:#FFF;
 	padding:5px;
@@ -735,11 +746,11 @@ img.with-border{
 
 
 #menuicon-bar.menuicon-right #sticky-menuicon{
-	right:50px; 
+	right:50px;
 }
 
 #menuicon-bar.menuicon-left #sticky-menuicon{
-	left:50px; 
+	left:50px;
 }
 
 /* ----------------------------------------------*/
@@ -749,7 +760,7 @@ img.with-border{
 /* 04.3.1 Sidebar */
 /* ----------------------------------------------*/
 .sb-slidebar{
-	background-color:#FFF; 
+	background-color:#FFF;
 	width:320px;
 	border-left:1px solid #f4f2f2;
 	border-right:1px solid #f4f2f2;
@@ -760,21 +771,21 @@ img.with-border{
 /* ----------------------------------------------*/
 #side-navbar-header{
 	position:relative;
-	width:100%; 
-	height:140px; 
-	display:block;	
+	width:100%;
+	height:140px;
+	display:block;
 }
 
 #close-inner-wrapper{
-	position:absolute; 
-	bottom:30px; 
-	right:35px; 
+	position:absolute;
+	bottom:30px;
+	right:35px;
 }
 
 #logo-inner-wrapper{
-	position:absolute; 
-	bottom:20px; 
-	left:35px; 
+	position:absolute;
+	bottom:20px;
+	left:35px;
 }
 
 #close-button i{
@@ -790,7 +801,7 @@ img.with-border{
 /* ----------------------------------------------*/
 #side-nav-menu{
 	position:relative;
-	list-style-type:none; 
+	list-style-type:none;
 	margin:35px;
 	margin-bottom:100px;
 	padding:0;
@@ -845,14 +856,14 @@ img.with-border{
 
 /* 04.3.5 Child-Parent Arrow Icon				 */
 /* ----------------------------------------------*/
-#side-nav-menu li a:after { 
-	content: '>'; 
+#side-nav-menu li a:after {
+	content: '>';
 	position:absolute;
 	right:15px;
-} 
+}
 
-#side-nav-menu li a:only-child:after { 
-	content: ''; 
+#side-nav-menu li a:only-child:after {
+	content: '';
 }
 
 /* 04.3.6 More Child Menu */
@@ -879,21 +890,21 @@ img.with-border{
 /* 05.1	CSS Logo								 */
 /* ----------------------------------------------*/
 .css-logo{
-	width:100%; 
-	height:100%; 
-	border-radius:0%; 
-	background-color:#f0394d; 
-	color:#FFF; 
-	text-align:center; 
+	width:100%;
+	height:100%;
+	border-radius:0%;
+	background-color:#f0394d;
+	color:#FFF;
+	text-align:center;
 	font-family: 'Arvo', serif;
 }
 
 .css-logo.rounded{
-	border-radius:50%; 
+	border-radius:50%;
 }
 
 .css-logo-text{
-	padding-top:19px; 
+	padding-top:19px;
 	font-size:15px;
 }
 
@@ -915,7 +926,7 @@ img.with-border{
 /* 06. MAIN-SLIDER					 		 	 */
 /*===============================================*/
 #main-slider {
-	margin:0; 
+	margin:0;
 	padding:0;
 	position:relative;
 }
@@ -933,8 +944,8 @@ img.with-border{
 /* ----------------------------------------------*/
 /* 06.2 Main Slider Flexslider			  		 */
 /* ----------------------------------------------*/
-#main-slider.flexslider { 
-	border: none; 
+#main-slider.flexslider {
+	border: none;
 }
 
 #main-slider .slides,
@@ -979,20 +990,20 @@ img.with-border{
 	position:relative;
 	height:inherit;
 	width:100%;
-	background-size:cover; 
+	background-size:cover;
 	background-position:50% 50%;
 	background-color:#FFF;
 	-webkit-transform: translateZ(0);
-	
+
 }
 
 /* ----------------------------------------------*/
 /* 06.4 Main Slider Slide-Video			  		 */
 /* ----------------------------------------------*/
 #main-slider .slide-video{
-	height: inherit; 
+	height: inherit;
 	width:100%;
-	position:relative;	
+	position:relative;
 }
 
 /*#main-slider .slide-video-control{
@@ -1012,10 +1023,10 @@ img.with-border{
 /* 06.5.1 Outter Wrapper */
 /* ----------------------------------------------*/
 .slide-title-outter-wrapper{
-	position:absolute; 
-	width:100%; 
-	height:inherit; 
-	left:0; 
+	position:absolute;
+	width:100%;
+	height:inherit;
+	left:0;
 	z-index:3;
 	overflow:hidden;
 }
@@ -1023,17 +1034,17 @@ img.with-border{
 /* 06.5.2 Inner Wrapper */
 /* ----------------------------------------------*/
 .slide-title-inner-wrapper{
-	width:1170px; 
-	height:inherit; 
-	margin:0 auto; 
+	width:1170px;
+	height:inherit;
+	margin:0 auto;
 	display: table;
 }
 
 /* 06.5.3 Title Wrapper */
 /* ----------------------------------------------*/
-.slide-title{ 
+.slide-title{
 	display: table-cell;
-	text-align:center;	
+	text-align:center;
     color:#FFF;
 }
 
@@ -1060,7 +1071,7 @@ img.with-border{
 /* 06.5.6 Save The Date Title */
 /* ----------------------------------------------*/
 #save-the-date{
-	font-family: 'Pacifico', cursive; 
+	font-family: 'Pacifico', cursive;
 	-ms-transform: rotate(-10deg); /* IE 9 */
     -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
     transform: rotate(-10deg);
@@ -1070,7 +1081,7 @@ img.with-border{
 }
 
 #save{
-	font-size:75px; 
+	font-size:75px;
 	line-height:50px
 }
 
@@ -1079,12 +1090,12 @@ img.with-border{
 }
 
 #date{
-	font-size:47px; 
+	font-size:47px;
 	line-height:40px;
 }
 
 .pink-dot{
-	color: #f0394d; 
+	color: #f0394d;
 }
 
 /* ----------------------------------------------*/
@@ -1094,10 +1105,10 @@ img.with-border{
 .slide-overlay{
 	position:absolute;
 	top:0;
-	display:block; 
-	width:inherit; 
-	height:inherit; 
-	background-color:#000; 
+	display:block;
+	width:inherit;
+	height:inherit;
+	background-color:#000;
 	opacity:0.3;
 	-webkit-transform: translateZ(0);
 }
@@ -1109,9 +1120,9 @@ img.with-border{
 	position:absolute;
 	top:0;
 	display:block;
-	width:inherit; 
-	height:inherit; 
-	color:#fff;	
+	width:inherit;
+	height:inherit;
+	color:#fff;
 }
 
 .use-animation{
@@ -1121,10 +1132,10 @@ img.with-border{
 /* ----------------------------------------------*/
 /* 06.8 Hack Flexslider Fade for Firefox & IE11	 */
 /* ----------------------------------------------*/
-.flexslider .slides.css-fade > li { 
-  	-webkit-transition: opacity 1s ease; 
+.flexslider .slides.css-fade > li {
+  	-webkit-transition: opacity 1s ease;
 	-moz-transition: opacity 1s ease;
- 	transition: opacity 1s ease; 
+ 	transition: opacity 1s ease;
 }
 
 /* ----------------------------------------------*/
@@ -1249,14 +1260,14 @@ img.with-border{
 /* 07.1.6 Page Sidebar				 			 */
 /* ----------------------------------------------*/
 .sidebar-wrapper{
-	width:100%; 
-	background-color:#FFF; 
+	width:100%;
+	background-color:#FFF;
 	padding:20px 30px
 }
 
 .sidebar-menu{
 	list-style-type:none;
-	padding:10px 0 0 0;	
+	padding:10px 0 0 0;
 }
 
 .sidebar-menu li{
@@ -1304,9 +1315,9 @@ img.with-border{
 /* 07.2.3 Icon Title Wrapper					 */
 /* ----------------------------------------------*/
 .icon-title {
-	position:absolute; 
-	margin: auto; 
-	left:0; 
+	position:absolute;
+	margin: auto;
+	left:0;
 	right:0;
 	top:-50px;
 }
@@ -1315,17 +1326,17 @@ img.with-border{
 /* ----------------------------------------------*/
 .title-excerpt{
 	position:relative;
-	background-color:#FFF; 
+	background-color:#FFF;
 	padding:25px;
 }
 
 .title-excerpt .custom-heart-icon{
 	position:absolute;
-	margin: auto; 
-	left:0; 
-	right:0; 
+	margin: auto;
+	left:0;
+	right:0;
 	top:-12px;
-	color:#f0394d !important; 
+	color:#f0394d !important;
 	background-color:#e1dddd !important;
 }
 
@@ -1345,7 +1356,7 @@ img.with-border{
 }
 
 .v-align{
-	display:table-cell;	
+	display:table-cell;
 }
 
 .center-middle{
@@ -1377,7 +1388,7 @@ img.with-border{
 	background-position:center center;
 	background-repeat:no-repeat;
 	color:#FFF;
-	-webkit-backface-visibility: hidden;	
+	-webkit-backface-visibility: hidden;
 }
 
 .image-divider.mobile{
@@ -1402,12 +1413,12 @@ img.with-border{
 
 .image-divider .divider-overlay,
 .video-divider .divider-overlay{
-	position:absolute; 
-	top:0; 
-	display:block; 
-	width:100%; 
-	height:100%; 
-	background-color:#000; 
+	position:absolute;
+	top:0;
+	display:block;
+	width:100%;
+	height:100%;
+	background-color:#000;
 	opacity:0.3
 }
 
@@ -1437,7 +1448,7 @@ hr.line-divider{
 	height:2px;
 	border:none;
 	color:#e1dddd;
-	background-color:#e1dddd; 
+	background-color:#e1dddd;
 	margin:50px 0
 }
 
@@ -1445,38 +1456,38 @@ hr.line-divider{
 /* ----------------------------------------------*/
 
 .heart-divider{
-	height:100%; 
+	height:100%;
 	width:100%;
-	margin:0 auto; 
+	margin:0 auto;
 	margin-top:20px;
 	margin-bottom:20px;
 	text-align:center;
 }
 
 .white-line{
-	width:30px; 
+	width:30px;
 	height:8px;
 	display:inline-block;
 	border-top:solid 1px #FFF;
 }
 
 .grey-line{
-	width:30px; 
+	width:30px;
 	height:8px;
 	display:inline-block;
 	border-top:solid 2px #e1dddd;
 }
 
 /*.left-line{
-	color:#FFF; 
-	letter-spacing:-2px; 
-	float:left; 
+	color:#FFF;
+	letter-spacing:-2px;
+	float:left;
 	margin-right:10px
 }
 
 .right-line{
-	color:#FFF; 
-	letter-spacing:-2px; 
+	color:#FFF;
+	letter-spacing:-2px;
 	float:left;
 	margin-left:10px
 }
@@ -1486,24 +1497,24 @@ hr.line-divider{
 }*/
 
 .pink-heart{
-	color:#f0394d; 
-	font-size:18px; 
-	position:relative; 
+	color:#f0394d;
+	font-size:18px;
+	position:relative;
 	z-index:3
 }
 
 .white-heart{
-	color:#FFF; 
-	font-size:18px; 
-	margin-left:-15px; 
+	color:#FFF;
+	font-size:18px;
+	margin-left:-15px;
 	position:relative;
 	z-index:2
 }
 
 .grey-heart{
 	color: #e1dddd;
-	font-size:18px; 
-	margin-left:-15px; 
+	font-size:18px;
+	margin-left:-15px;
 	position:relative;
 	z-index:2
 }
@@ -1512,39 +1523,39 @@ hr.line-divider{
 /* 07.2.10 BUTTON					 			 */
 /* ----------------------------------------------*/
 a.de-button, span.de-button, input[type=submit]{
-	display:inline-block; 	
-	margin:0 auto; 
-	margin-top:20px; 
-	background-color:#FFF; 
-	font-family: 'Oswald', sans-serif; 	
+	display:inline-block;
+	margin:0 auto;
+	margin-top:20px;
+	background-color:#FFF;
+	font-family: 'Oswald', sans-serif;
 	border:solid 1px #6a6a6a
 }
 
 a.de-button.outline, span.de-button.outline, input[type=submit].outline{
-	background-color:transparent; 
+	background-color:transparent;
 	border:solid 1px #FFF;
 	color:#FFF;
 }
 
 a.de-button.reverse, span.de-button.reverse, input[type=submit].reverse{
-	background-color:#f0394d; 
+	background-color:#f0394d;
 	border:solid 1px #f0394d;
 	color:#FFF;
 }
 
 a.de-button.small, span.de-button.small, input[type=submit].small{
-	padding:8px 26px; 
-	font-size:14px; 
+	padding:8px 26px;
+	font-size:14px;
 }
 
 a.de-button.medium, span.de-button.medium, input[type=submit].medium{
-	padding:10px 50px; 
-	font-size:16px; 
+	padding:10px 50px;
+	font-size:16px;
 }
 
 a.de-button.large, span.de-button.large, input[type=submit].large{
-	padding:14px 70px; 
-	font-size:20px; 
+	padding:14px 70px;
+	font-size:20px;
 }
 
 a.de-button:hover, input[type=submit]:hover{
@@ -1572,23 +1583,23 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /* ----------------------------------------------*/
 .banner-text{
 	display:inline-block;
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'Oswald', sans-serif;
 	margin:auto;
 	margin-top:30px;
-	margin-bottom:30px; 	
+	margin-bottom:30px;
 	text-align:center
 }
 
 .banner-text.small{
-	padding:2px 30px;  
+	padding:2px 30px;
 }
 
 .banner-text.medium{
-	padding:2px 50px;  
+	padding:2px 50px;
 }
 
 .banner-text.large{
-	padding:2px 70px;  
+	padding:2px 70px;
 }
 
 .banner-text.full{
@@ -1597,7 +1608,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 
 .banner-text.light{
 	color:#FFF;
-	border-top:medium double #fff; 
+	border-top:medium double #fff;
 	border-bottom:medium double #fff;
 }
 
@@ -1607,8 +1618,8 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 
 .banner-text.dark{
 	color:#6a6a6a;
-	border-top:medium double #6a6a6a; 
-	border-bottom:medium double #6a6a6a; 	
+	border-top:medium double #6a6a6a;
+	border-bottom:medium double #6a6a6a;
 }
 
 .banner-text.dark *{
@@ -1618,7 +1629,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 .banner-text.withlove{
 	position:relative;
 	display:inline-block;
-	font-family: 'Oswald', sans-serif;  
+	font-family: 'Oswald', sans-serif;
 	margin:auto;
 	margin-top:30px;
 	margin-bottom:30px;
@@ -1659,7 +1670,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /* 07.2.12 White Box Content Wrapper 			 */
 /* ----------------------------------------------*/
 .white-box-content-wrapper{
-	background-color:#FFF; 
+	background-color:#FFF;
 	padding:40px 40px;
 	margin-bottom:30px;
 }
@@ -1669,7 +1680,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /*-----------------------------------------------*/
 #popup-template{
 	width:900px;
-	margin:30px auto; 
+	margin:30px auto;
 	background-color:#FFF;
 }
 
@@ -1680,10 +1691,10 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 #popup-template-title-wrapper{
-	position:absolute; 
-	bottom:0; 
-	color:#FFF; 
-	text-align:center; 
+	position:absolute;
+	bottom:0;
+	color:#FFF;
+	text-align:center;
 	padding:0 50px;
 	margin:0 auto;
 	width:100%;
@@ -1694,7 +1705,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 #popup-template #the-content #socialnetwork-icon{
-	text-align:center; 
+	text-align:center;
 	margin-bottom:20px;
 }
 
@@ -1723,9 +1734,9 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	line-height: 60px;
 	font-size:30px;
 	text-align: center;
-	vertical-align: middle;	
+	vertical-align: middle;
 	margin:8px 0px;
-	
+
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
@@ -1745,7 +1756,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 .de-icon.float{
-	float:left; 
+	float:left;
 	margin-right:15px
 }
 
@@ -1765,28 +1776,28 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	width: 100px;
 	height: 100px;
 	line-height: 100px;
-	font-size:40px;	
+	font-size:40px;
 }
 
 .de-icon.medium-size{
 	width: 54px;
 	height: 54px;
 	line-height: 54px;
-	font-size:21px;	
+	font-size:21px;
 }
 
 .de-icon.small-size{
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
-	font-size:18px;	
+	font-size:18px;
 }
 
 .de-icon.very-small-size{
 	width: 25px;
 	height: 25px;
 	line-height: 25px;
-	font-size:11px;	
+	font-size:11px;
 }
 
 /*------------------------------------------------*/
@@ -1889,7 +1900,7 @@ a:hover .de-icon.circle.reverse, a:hover .de-icon.rounded.reverse, a:hover .de-i
 	   -moz-transform: scale(1);
 	     -o-transform: scale(1);
 	    -ms-transform: scale(1);
-	        transform: scale(1);	
+	        transform: scale(1);
 }
 
 a:hover .de-icon.effect1{
@@ -1897,7 +1908,7 @@ a:hover .de-icon.effect1{
 	   -moz-transform: scale(1.2);
 	     -o-transform: scale(1.2);
 	    -ms-transform: scale(1.2);
-	        transform: scale(1.2);	
+	        transform: scale(1.2);
 }
 
 /*------------------------------------------------*/
@@ -1908,7 +1919,7 @@ a:hover .de-icon.effect1{
 	   -moz-transform: rotate(0deg);
 	     -o-transform: rotate(0deg);
 	    -ms-transform: rotate(0deg);
-	        transform: rotate(0deg);	
+	        transform: rotate(0deg);
 }
 
 a:hover .de-icon.effect2 i{
@@ -1916,7 +1927,7 @@ a:hover .de-icon.effect2 i{
 	   -moz-transform: rotate(360deg);
 	     -o-transform: rotate(360deg);
 	    -ms-transform: rotate(360deg);
-	        transform: rotate(360deg);	
+	        transform: rotate(360deg);
 }
 
 /*------------------------------------------------*/
@@ -1938,7 +1949,7 @@ a:hover .de-icon.effect3{
 }
 
 .photo-item.frame-border {
-	background-color:#FFF; 
+	background-color:#FFF;
 	border:18px solid #FFF;
 }
 
@@ -1953,10 +1964,10 @@ a:hover .de-icon.effect3{
 /* 09.2 Layer 								 	 */
 /* ----------------------------------------------*/
 .photo-item .layer {
-	position: absolute; 
+	position: absolute;
 	margin: auto;
-	top: 0; 
-	right: 0; 
+	top: 0;
+	right: 0;
 	bottom: 0;
 	left: 0;
 	width:100%;
@@ -1965,19 +1976,19 @@ a:hover .de-icon.effect3{
 
 .photo-item .layer.wh100{
 	width:100%;
-	height:100%; 
+	height:100%;
 }
 
 .photo-item .layer.wh95{
 	width:95%;
-	height:95%; 
+	height:95%;
 }
 
 
 /* 09.2.1 Layer : Second Image   				 */
 /* ----------------------------------------------*/
 .photo-item .layer.second-image{
-	opacity: 0; 
+	opacity: 0;
 }
 
 
@@ -1985,32 +1996,32 @@ a:hover .de-icon.effect3{
 /* ----------------------------------------------*/
 .photo-item .layer.opacity-black-overlay{
 	background-color: rgba(0, 0, 0, 0.4);
-	opacity: 0.3; 
+	opacity: 0.3;
 }
 
 .photo-item .layer.hidden-black-overlay{
 	background-color: rgba(0, 0, 0, 0.4);
-	opacity: 0; 
+	opacity: 0;
 }
 
 /* 09.2.3 Layer : Photo Caption  				 */
 /* ----------------------------------------------*/
 .photo-item .layer.photo-caption{
-	opacity: 1; 
+	opacity: 1;
 }
 
 .photo-item .layer.hidden-photo-caption{
-	opacity: 0; 
+	opacity: 0;
 }
 
 .photo-item .layer.border-photo-caption{
 	opacity: 1;
-	border:1px solid #FFF; 
+	border:1px solid #FFF;
 }
 
 .photo-item .layer.hidden-border-photo-caption{
 	opacity: 0;
-	border:1px solid #FFF; 
+	border:1px solid #FFF;
 }
 
 /* 09.2.4 Layer : Icon / Button Link		 	 */
@@ -2024,34 +2035,34 @@ a:hover .de-icon.effect3{
 }
 
 .photo-item:hover .layer.hover-animation.fade-in{
-	opacity: 1; 
+	opacity: 1;
 }
 
 .photo-item:hover .layer.hover-animation.half-fade-in{
-	opacity: 0.3; 
+	opacity: 0.3;
 }
 
 .photo-item:hover .layer.hover-animation.fade-out{
-	opacity: 0; 
+	opacity: 0;
 }
 
 /* ----------------------------------------------*/
 /* 09.3 on Hover Animation					 	*/
 /* ----------------------------------------------*/
 .photo-item img.hover-animation, .photo-item:hover img.hover-animation{
-	-webkit-transition: all 0.5s; 
+	-webkit-transition: all 0.5s;
 		-ms-transition: all 0.5s;
 		 -o-transition: all 0.5s;
 			transition: all 0.5s;
-	/*The transition will be disabled on script.js for tablet/mobile*/		
+	/*The transition will be disabled on script.js for tablet/mobile*/
 }
 
 .photo-item .layer.hover-animation, .photo-item:hover .layer.hover-animation {
-	-webkit-transition: all 0.5s; 
+	-webkit-transition: all 0.5s;
 		-ms-transition: all 0.5s;
 		 -o-transition: all 0.5s;
 			transition: all 0.5s;
-	/*The transition will be disabled on script.js for tablet/mobile*/	
+	/*The transition will be disabled on script.js for tablet/mobile*/
 }
 
 /* 09.3.1 on Hover Animation Duration		 	 */
@@ -2112,10 +2123,10 @@ a:hover .de-icon.effect3{
 /* 09.3.3 on Hover Zoom In					 	 */
 /* ----------------------------------------------*/
 .photo-item:hover img.hover-animation.image-zoom-in {
-	-webkit-transform: scale(1.1); 
+	-webkit-transform: scale(1.1);
 		-ms-transform: scale(1.1);
-		 -o-transform: scale(1.1);  
-			transform: scale(1.1);		
+		 -o-transform: scale(1.1);
+			transform: scale(1.1);
 }
 
 /* 09.3.4 on Hover Zoom In and Rotate	 	 	*/
@@ -2123,8 +2134,8 @@ a:hover .de-icon.effect3{
 .photo-item:hover img.hover-animation.image-zoom-rotate {
 	-webkit-transform: rotate(7deg) scale(1.1);
 		-ms-transform: rotate(7deg) scale(1.1);
-		 -o-transform: rotate(7deg) scale(1.1);  
-			transform: rotate(7deg) scale(1.1);			
+		 -o-transform: rotate(7deg) scale(1.1);
+			transform: rotate(7deg) scale(1.1);
 }
 
 /* 09.3.5 on Hover Fade Out				 		 */
@@ -2341,7 +2352,7 @@ form label{
 }
 
 .option-label{
-	font-family: 'Arvo', serif;	
+	font-family: 'Arvo', serif;
 	color:#6a6a6a;
 	font-size:13px;
 }
@@ -2349,12 +2360,12 @@ form label{
 /*-----------------------------------------------*/
 /* 11.5 Button									 */
 /*-----------------------------------------------*/
-form .btn-primary 
+form .btn-primary
 {
     padding: 12px 18px;
-    margin: 0 15px 5px 15px; 
+    margin: 0 15px 5px 15px;
     border-radius: 0;
-	font-family: 'Arvo', serif;	
+	font-family: 'Arvo', serif;
 	color:#6a6a6a;
 	font-size:13px;
   	background-color: #FFF;
@@ -2367,7 +2378,7 @@ form .btn-primary.focus,
 form .btn-primary:active,
 form .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-	background-color:#f0394d; 
+	background-color:#f0394d;
 	border-color:#f0394d;
 	color:#FFF;
  	border-color: #cccccc;
@@ -2378,7 +2389,7 @@ form .btn-primary.active,
 /*-----------------------------------------------*/
 .ajax-checkbox .btn input[type=checkbox],
 .ajax-radio .btn input[type=radio]{
-	display:none;	
+	display:none;
 }
 
 .ajax-checkbox .btn.custom-option-icon, .ajax-checkbox .btn.no-icon,
@@ -2441,7 +2452,7 @@ option{
 }
 
 .message .bg-danger{
-	background-color:#f0394d; 
+	background-color:#f0394d;
 }
 
 .message .bg-success{
@@ -2482,13 +2493,13 @@ form .has-error .btn-primary{
 }
 
 .couple-name{
-	font-family: 'Pacifico', cursive; 
-	font-size:41px; 
+	font-family: 'Pacifico', cursive;
+	font-size:41px;
 	padding-top:100px;
-	color:#FFF; 
-	line-height:41px; 
-	-ms-transform: rotate(-10deg); 
-	-webkit-transform: rotate(-10deg); 
+	color:#FFF;
+	line-height:41px;
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
 	transform: rotate(-10deg)
 }
 
@@ -2502,11 +2513,11 @@ form .has-error .btn-primary{
 /* ----------------------------------------------*/
 
 #counting-down{
-	text-align:center; 
-	color:#FFF; 
+	text-align:center;
+	color:#FFF;
 	font-family: 'Pacifico';
-	-ms-transform: rotate(-10deg); 
-	-webkit-transform: rotate(-10deg); 
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
 	transform: rotate(-10deg);
 	padding-right:30px;
 	margin-top:0px;
@@ -2514,18 +2525,18 @@ form .has-error .btn-primary{
 }
 
 #counting{
-	font-size:65px; 
+	font-size:65px;
 	line-height:50px
 }
 
 #down{
-	font-size:55px; 
+	font-size:55px;
 	line-height:65px;
 }
 
 .simple-countdown{
-	width:250px; 
-	margin:0 auto; 
+	width:250px;
+	margin:0 auto;
 	margin-top:25px
 }
 
@@ -2533,7 +2544,7 @@ form .has-error .btn-primary{
 	border: none;
 	background-color:transparent;
 	color:#FFF;
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'Oswald', sans-serif;
 	font-size:13px;
 }
 
@@ -2579,11 +2590,11 @@ footer .image-divider.fixed-height{
 }
 
 #thank-you{
-	text-align:center; 
-	color:#FFF; 
+	text-align:center;
+	color:#FFF;
 	font-family: 'Pacifico';
-	-ms-transform: rotate(-10deg); 
-	-webkit-transform: rotate(-10deg); 
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
 	transform: rotate(-10deg);
 	padding-right:30px;
 	margin-top:40px;
@@ -2591,20 +2602,20 @@ footer .image-divider.fixed-height{
 }
 
 #thank{
-	font-size:55px; 
+	font-size:55px;
 	line-height:45px
 }
 
 #you{
-	font-size:55px; 
+	font-size:55px;
 	line-height:45px;
 }
 
 #footer-couple-name{
-	font-family: 'Oswald', sans-serif; 
-	font-size:20px; 
-	color:#FFF; 
-	letter-spacing:3px; 
+	font-family: 'Oswald', sans-serif;
+	font-size:20px;
+	color:#FFF;
+	letter-spacing:3px;
 	margin-top:10px;
 }
 
@@ -2617,14 +2628,14 @@ footer .image-divider.fixed-height{
 /* 13.1 Location Page				 			 */
 /* ----------------------------------------------*/
 .interest-icon{
-	display:inline-block; 
-	width:20%; 
-	vertical-align:top; 
+	display:inline-block;
+	width:20%;
+	vertical-align:top;
 	text-align:center
 }
 
 .interest-blurb{
-	display:inline-block; 
+	display:inline-block;
 	width:75%;
 	vertical-align:top;
 }
@@ -2633,8 +2644,8 @@ footer .image-divider.fixed-height{
 /* 13.2 RSVP-2 Page				 			 	 */
 /* ----------------------------------------------*/
 .rsvp-wrapper{
-	padding:35px 20px 20px 25px; 
-	border:1px solid #cccccc; 
+	padding:35px 20px 20px 25px;
+	border:1px solid #cccccc;
 	border-radius:10px;
 }
 
@@ -2667,14 +2678,14 @@ footer .image-divider.fixed-height{
 /* 14.1 Slider Section							 */
 /* ----------------------------------------------*/
 #invited{
-	font-family: 'Pacifico', cursive; 
-	font-size:36px; 
+	font-family: 'Pacifico', cursive;
+	font-size:36px;
 	margin-top:70px;
 }
 
 #banner-date{
-	font-family: 'Oswald', sans-serif; 
-	letter-spacing:3px; 
+	font-family: 'Oswald', sans-serif;
+	letter-spacing:3px;
 	font-size:14px;
 }
 
@@ -2686,29 +2697,29 @@ footer .image-divider.fixed-height{
 }
 
 .his-her-name h2{
-	font-size:40px; 
-	margin-top:50px; 
+	font-size:40px;
+	margin-top:50px;
 	margin-bottom:20px;
 }
 
 .his-her-name .last-name{
-	font-family: 'Pacifico', cursive; 
-	font-size:24px; 
-	display:block; 
+	font-family: 'Pacifico', cursive;
+	font-size:24px;
+	display:block;
 	margin-top:0;
 }
 
 .his-her-name .heart-wrapper{
-	position:absolute; 
-	right:-50px; 
+	position:absolute;
+	right:-50px;
 	top:0;
 }
 
 .his-her-name .custom-heart{
-	background-color:#f0394d; 
-	width:65px; 
-	height:65px; 
-	line-height:65px;	
+	background-color:#f0394d;
+	width:65px;
+	height:65px;
+	line-height:65px;
 	font-size:26px;
 }
 
@@ -2738,32 +2749,32 @@ footer .image-divider.fixed-height{
 .story-date{
 	float:left;
 	margin-left:16px;
-	height:85px; 
-	width:85px; 
-	background-color:#f0394d; 
+	height:85px;
+	width:85px;
+	background-color:#f0394d;
 	border-radius:50%;
 }
 
 .story-date .date-only{
-	font-family: 'Oswald', sans-serif; 
-	font-size:30px; 
-	color:#FFF; 
-	line-height:30px; 
+	font-family: 'Oswald', sans-serif;
+	font-size:30px;
+	color:#FFF;
+	line-height:30px;
 	margin-top:16px;
 }
 
 .story-date .month-year{
-	font-family: 'Oswald', sans-serif; 
-	font-size:16px; 
+	font-family: 'Oswald', sans-serif;
+	font-size:16px;
 	color:#FFF;
 }
 
 .arrow-right {
-	width: 0; 
-	height: 0; 
+	width: 0;
+	height: 0;
 	border-top: 13px solid transparent;
 	border-bottom: 13px solid transparent;
-	
+
 	border-left: 13px solid #e1dddd;
 	float:right;
 	margin-bottom:22px;
@@ -2772,12 +2783,12 @@ footer .image-divider.fixed-height{
 }
 
 .arrow-left {
-	width: 0; 
-	height: 0; 
+	width: 0;
+	height: 0;
 	border-top: 13px solid transparent;
-	border-bottom: 13px solid transparent; 
-	
-	border-right:13px solid #e1dddd; 
+	border-bottom: 13px solid transparent;
+
+	border-right:13px solid #e1dddd;
 	float:left;
 	margin-bottom:22px;
 	margin-right:10px;
@@ -2785,14 +2796,14 @@ footer .image-divider.fixed-height{
 }
 
 .vertical-line{
-	position:absolute; 
-	height:100%; 
-	width:1px; 
-	margin:auto; 
-	top:0; 
-	bottom:0; 
-	left:0; 
-	right:0; 
+	position:absolute;
+	height:100%;
+	width:1px;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
 	border-left:1px solid #e1dddd;
 }
 
@@ -2812,7 +2823,7 @@ footer .image-divider.fixed-height{
 }
 
 .border-column{
-	border-left:1px solid #8b8b8b; 
+	border-left:1px solid #8b8b8b;
 	border-right:1px solid #8b8b8b
 }
 
@@ -2841,21 +2852,21 @@ footer .image-divider.fixed-height{
 /* 14.6 Don't Miss It / Countdown Section		 */
 /* ----------------------------------------------*/
 h2#dont-miss-it-title{
-	font-size:42px; 
-	margin-bottom:30px; 
+	font-size:42px;
+	margin-bottom:30px;
 	font-family: 'Pacifico', cursive;
 }
 
 .circle-countdown{
-	width:100%; 
-	margin:0 auto; 
+	width:100%;
+	margin:0 auto;
 	margin-top:25px
 }
 
 .circle-countdown.is-countdown {
 	background-color:transparent;
 	border:none;
-	font-family: 'Oswald', sans-serif; 
+	font-family: 'Oswald', sans-serif;
 }
 
 .circle-countdown .countdown-amount {
@@ -2874,7 +2885,7 @@ h2#dont-miss-it-title{
 	display:block;
 	text-align:center;
 	font-size:16px;
-	text-transform:uppercase;    
+	text-transform:uppercase;
 }
 
 /* ----------------------------------------------*/
@@ -2915,7 +2926,7 @@ h2#dont-miss-it-title{
 /* 14.10 Gift Section							 */
 /* ----------------------------------------------*/
 #gift-section{
-	padding: 140px 0; 
+	padding: 140px 0;
 	background-color:#FFF
 }
 
@@ -2930,7 +2941,7 @@ h2#dont-miss-it-title{
 /*===============================================*/
 /* 15. PLUGIN CUSTOM							 */
 /*===============================================*/
- 
+
 /* -------------------------------------------*/
 /* 15.1 Owl Carousel 						  */
 /* -------------------------------------------*/
@@ -2970,9 +2981,9 @@ h2#dont-miss-it-title{
 .mfp-content {
   	z-index: 2003;
 }
-  
+
 .mfp-preloader {
-  	z-index: 2002; 
+  	z-index: 2002;
 }
 
 button.mfp-close, button.mfp-arrow {
@@ -2983,12 +2994,12 @@ button.mfp-close, button.mfp-arrow {
 /* 99. OPTION SETTING							 */
 /*===============================================*/
 #options-setting{
-	position:fixed; 
-	width:300px;  
-	padding:25px; 
-	background-color:#FFF; 
-	top:170px; 
-	left:-302px; 
+	position:fixed;
+	width:300px;
+	padding:25px;
+	background-color:#FFF;
+	top:170px;
+	left:-302px;
 	z-index:1000;
 	box-shadow: 2px 2px 5px #888888;
 	-webkit-transition: 0.3s all ease;
@@ -3008,67 +3019,67 @@ button.mfp-close, button.mfp-arrow {
 }
 
 #setting-button-wrapper{
-	position:absolute; 
-	left:300px; 
+	position:absolute;
+	left:300px;
 	top:-8px
 }
 
 .swatches{
-	display:inline-block; 
-	height:25px; 
-	width:25px; 
+	display:inline-block;
+	height:25px;
+	width:25px;
 	margin-right:3px;
 }
 
 #coral span{
-	background-color:#FF7F50; 
+	background-color:#FF7F50;
 }
 
 #coral-red span{
-	background-color:#FF4040; 
+	background-color:#FF4040;
 }
 
 #lapis span{
-	background-color:#69477A; 
+	background-color:#69477A;
 }
 
 #light-teal span{
-	background-color:#18A7B5; 
+	background-color:#18A7B5;
 }
 
 #tan span{
-	background-color:#D2B48C; 
+	background-color:#D2B48C;
 }
 
 #reset-color span{
-	position:absolute; 
-	top:0; 
-	right:10px; 
-	border:3px solid #CCC; 
+	position:absolute;
+	top:0;
+	right:10px;
+	border:3px solid #CCC;
 	padding:0px 10px;
 }
 
 .navbar-setting-button{
-	display:inline-block; 
+	display:inline-block;
 	border:3px solid #CCC;
 	padding:8px 15px;
 }
 
 .navbar-setting-button{
-	display:inline-block; 
+	display:inline-block;
 	border:3px solid #CCC;
 	padding:8px 15px;
 }
 
 .pattern-setting-button{
-	display:inline-block; 
-	border:3px solid #CCC; 
+	display:inline-block;
+	border:3px solid #CCC;
 	padding:8px 16px;
 }
 
 .setting-info{
-	font-size:12px; 
-	line-height:16px; 
+	font-size:12px;
+	line-height:16px;
 	margin-top:10px;
 }
 
@@ -3080,15 +3091,15 @@ a:hover .navbar-setting-button,
 	background-color:#f0394d;
 	color:#FFF;
 	border-color:#f0394d;
-}	
+}
 
 
 
 /*===============================================*/
 /* 16. MEDIA SCREEN		 						 */
 /*===============================================*/
-@media 
-  (min-device-width: 800px) 
+@media
+  (min-device-width: 800px)
   and (max-device-width: 1280px) {
 	 /* .image-divider {
 	background-attachment: scroll;
@@ -3121,13 +3132,13 @@ a:hover .navbar-setting-button,
 /* 06.5.2 Inner Wrapper 						 */
 /* ----------------------------------------------*/
 .slide-title-inner-wrapper{
-	width:100%; 
+	width:100%;
 }
 
 
 }
 
-@media screen and (max-width: 991px) {	
+@media screen and (max-width: 991px) {
 /*===============================================*/
 /* 02. NAV BAR 	 							 	 */
 /*===============================================*/
@@ -3141,11 +3152,11 @@ a:hover .navbar-setting-button,
 }
 
 #nav-bar.top-bar.stick-it{
-	height:100px; 	
+	height:100px;
 }
 
 #nav-bar.bottom-bar.stick-it{
-	height:100px; 	
+	height:100px;
 }
 
 #nav-bar.bottom-bar.outside{
@@ -3170,14 +3181,14 @@ a:hover .navbar-setting-button,
 }
 
 #nav-menu { display: none }
-#nav-menu.sidebar {display:block}	
+#nav-menu.sidebar {display:block}
 #nav-menu.open { display: block; }
 
 #nav-menu,
-.bottom-bar.transparent #nav-menu{	
-	list-style-type:none; 
-	margin:0; 
-	padding:0 !important; 
+.bottom-bar.transparent #nav-menu{
+	list-style-type:none;
+	margin:0;
+	padding:0 !important;
 	position:absolute;
 	left:0;
 	top:100%;
@@ -3191,10 +3202,10 @@ a:hover .navbar-setting-button,
 
 .transparent #nav-menu{
 	width:80% !important;
-	position:absolute; 
-	margin:auto; 
-	top:100%; 
-	left:0; 
+	position:absolute;
+	margin:auto;
+	top:100%;
+	left:0;
 	right:0;
 }
 
@@ -3209,7 +3220,7 @@ a:hover .navbar-setting-button,
 #nav-bar.nav-left .logo-wrapper,
 #nav-bar.nav-right .logo-wrapper{
 	position:relative;
-	float:left;	
+	float:left;
 }
 
 
@@ -3268,16 +3279,16 @@ a:hover .navbar-setting-button,
 	border-top:none;
 }
 
-#nav-menu li > ul li a:before{ 
+#nav-menu li > ul li a:before{
 	content: '-';
 	padding-right:10px;
-} 
+}
 
 /* 03.2.2 Child-Parent Arrow */
 /* ----------------------------------------------*/
-#nav-menu li > ul li a:after { 
+#nav-menu li > ul li a:after {
 	content: '';
-} 
+}
 
 
 /* 03.2.3 More Child */
@@ -3291,15 +3302,15 @@ a:hover .navbar-setting-button,
 	border:none;
 }
 
-#nav-menu ul ul li a:before{ 
+#nav-menu ul ul li a:before{
 	content: '- -';
 	padding-right:10px;
-} 
+}
 
-#nav-menu ul ul ul li a:before{ 
+#nav-menu ul ul ul li a:before{
 	content: '- - -';
 	padding-right:10px;
-} 
+}
 
 
 /* ----------------------------------------------*/
@@ -3314,12 +3325,12 @@ a:hover .navbar-setting-button,
 	z-index:1000;
 }
 
-.transparent #mobile-nav{	
+.transparent #mobile-nav{
 	color:#FFF;
 }
 
 .transparent.stick-it #mobile-nav{
-	color:#666;	
+	color:#666;
 }
 
 
@@ -3351,11 +3362,11 @@ a:hover .navbar-setting-button,
 }
 
 #menuicon-bar.menuicon-right #sticky-menuicon{
-	right:30px; 
+	right:30px;
 }
 
 #menuicon-bar.menuicon-left #sticky-menuicon{
-	left:30px; 
+	left:30px;
 }
 
 
@@ -3457,7 +3468,7 @@ a:hover .navbar-setting-button,
 
 .story-date{
 	float:none;
-	position:absolute;	
+	position:absolute;
 	top:-70px;
 	left:0;
 	right:0;
@@ -3465,8 +3476,8 @@ a:hover .navbar-setting-button,
 }
 
 .story-date .month-year{
-	font-family: 'Oswald', sans-serif; 
-	font-size:16px; 
+	font-family: 'Oswald', sans-serif;
+	font-size:16px;
 	color:#FFF;
 }
 
@@ -3500,22 +3511,22 @@ a:hover .navbar-setting-button,
 /* ----------------------------------------------*/
 /* 02.2 Logo & Nav Position						 */
 /* ----------------------------------------------*/
-#nav-menu{	
+#nav-menu{
 	height:230px !important;
 }
 }
 
 @media screen and (max-width: 768px) and (orientation : landscape) {
 /* 06.5.6 Save The Date Title */
-/* ----------------------------------------------*/	
+/* ----------------------------------------------*/
 #save-the-date{
 	padding-right:40px;
 	padding-top:0;
-	margin-bottom:0px;	
+	margin-bottom:0px;
 }
 
 #save{
-	font-size:50px; 
+	font-size:50px;
 	line-height:30px
 }
 
@@ -3524,13 +3535,13 @@ a:hover .navbar-setting-button,
 }
 
 #date{
-	font-size:30px; 
+	font-size:30px;
 	line-height:20px;
 }
 }
 
 
-@media screen and (max-width: 768px) {	
+@media screen and (max-width: 768px) {
 /*===============================================*/
 /* 11. FORM										 */
 /*===============================================*/
@@ -3541,7 +3552,7 @@ form .btn{
 }
 
 
-@media screen and (max-width: 480px)  {	
+@media screen and (max-width: 480px)  {
 /*===============================================*/
 /* 01. GENERAL			 						 */
 /*===============================================
@@ -3552,17 +3563,17 @@ p{
 
 
 
-/* 06.5.6 Save The Date Title */	
-/* ----------------------------------------------*/	
+/* 06.5.6 Save The Date Title */
+/* ----------------------------------------------*/
 #save-the-date{
 	padding-right:40px;
 	margin-bottom:0px;
 	padding-top:0;
-	
+
 }
 
 #save{
-	font-size:60px; 
+	font-size:60px;
 	line-height:35px
 }
 
@@ -3571,16 +3582,16 @@ p{
 }
 
 #date{
-	font-size:40px; 
+	font-size:40px;
 	line-height:25px;
 }
 
 /* 07.2.2 Section Title Wrapper					 */
 /* ----------------------------------------------*/
 .section-title{
-	margin-bottom:50px; 
-}	
-	
+	margin-bottom:50px;
+}
+
 /* 07.2.4 Title-Excerpt White Box				 */
 /* ----------------------------------------------*/
 .title-excerpt{
@@ -3615,15 +3626,15 @@ p{
 
 /* ----------------------------------------------*/
 /* 12.1 Couple Section							 */
-/* ----------------------------------------------*/	
+/* ----------------------------------------------*/
 #couple{
 	padding:60px 0 40px 0;
 }
 
 .couple-name{
-	font-size:36px; 
+	font-size:36px;
 	padding-top:80px !important;
-	line-height:38px; 
+	line-height:38px;
 }
 
 .couple-excerpt{
@@ -3634,18 +3645,18 @@ p{
 
 /* ----------------------------------------------*/
 /* 12.2 Location & Countdown Section			 */
-/* ----------------------------------------------*/	
+/* ----------------------------------------------*/
 #location-countdown .image-divider.auto-height {
 	padding:60px 0;
-}	
+}
 
 #counting{
-	font-size:55px; 
+	font-size:55px;
 	line-height:45px
 }
 
 #down{
-	font-size:50px; 
+	font-size:50px;
 	line-height:50px;
 }
 
@@ -3658,11 +3669,11 @@ p{
 
 /* ----------------------------------------------*/
 /* 12.3 The Wedding Section			 			 */
-/* ----------------------------------------------*/	
+/* ----------------------------------------------*/
 #the-wedding{
 	padding:60px 0 40px 0;
 }
-	
+
 /* ----------------------------------------------*/
 /* 12.4 RSVP Section				 			 */
 /* ----------------------------------------------*/
@@ -3727,7 +3738,7 @@ p{
 	display:block;
 	text-align:center;
 	font-size:12px;
-	text-transform:uppercase;    
+	text-transform:uppercase;
 }
 
 /* ----------------------------------------------*/
@@ -3755,7 +3766,7 @@ p{
 /* 14.10 Gift Section							 */
 /* ----------------------------------------------*/
 #gift-section{
-	padding: 80px 0; 
+	padding: 80px 0;
 }
 
 /* ----------------------------------------------*/
@@ -3775,11 +3786,11 @@ p{
 	padding-right:40px;
 	padding-top:0;
 	margin-bottom:0px;
-	
+
 }
 
 #save{
-	font-size:50px; 
+	font-size:50px;
 	line-height:30px
 }
 
@@ -3788,7 +3799,7 @@ p{
 }
 
 #date{
-	font-size:30px; 
+	font-size:30px;
 	line-height:20px;
 }
 
@@ -3796,9 +3807,9 @@ p{
 /* 12.1 Couple Section							 */
 /* ----------------------------------------------*/
 .couple-name{
-	font-size:30px; 
+	font-size:30px;
 	padding-top:70px !important;
-	line-height:30px; 
+	line-height:30px;
 }
 
 .couple-excerpt{
@@ -3814,11 +3825,11 @@ footer .image-divider.fixed-height{
 }
 
 #thank-you{
-	text-align:center; 
-	color:#FFF; 
+	text-align:center;
+	color:#FFF;
 	font-family: 'Pacifico';
-	-ms-transform: rotate(-10deg); 
-	-webkit-transform: rotate(-10deg); 
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
 	transform: rotate(-10deg);
 	padding-right:30px;
 	margin-top:40px;
@@ -3826,20 +3837,20 @@ footer .image-divider.fixed-height{
 }
 
 #thank{
-	font-size:45px; 
+	font-size:45px;
 	line-height:35px
 }
 
 #you{
-	font-size:45px; 
+	font-size:45px;
 	line-height:35px;
 }
 
 #footer-couple-name{
-	font-family: 'Oswald', sans-serif; 
-	font-size:15px; 
-	color:#FFF; 
-	letter-spacing:3px; 
+	font-family: 'Oswald', sans-serif;
+	font-size:15px;
+	color:#FFF;
+	letter-spacing:3px;
 	margin-top:10px;
 }
 }
