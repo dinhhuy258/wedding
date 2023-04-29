@@ -19,7 +19,7 @@ function initialize_bride_party_map() {
   var mapOptions = {
     zoom: 18,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    center: new google.maps.LatLng(-12.046014, -77.030503),
+    center: new google.maps.LatLng(16.435055, 107.760427),
     panControl: true,
     zoomControl: true,
     mapTypeControl: true,
@@ -34,7 +34,7 @@ function initialize_bride_party_map() {
   //MARKER ICON
   //=======================================================================================
   var marker = new MarkerWithLabel({
-    position: new google.maps.LatLng(-12.046014, -77.030503),
+    position: new google.maps.LatLng(16.435055, 107.760427),
     draggable: false,
     raiseOnDrag: false,
     icon: ' ',
@@ -78,8 +78,6 @@ function initialize_bride_party_map() {
 
 //INITIALIZE GROOM PARTY MAP
 function initialize_groom_party_map() {
-  console.log("HUY")
-
   //DEFINE MAP OPTIONS
   //=======================================================================================
   var mapOptions = {

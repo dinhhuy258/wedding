@@ -1564,17 +1564,20 @@
               <!-- Show Message -->
             </div>
 
-            <form method="post" action="rsvp.php" id="rsvpform">
+            <form method="post"
+                  action="https://script.google.com/macros/s/AKfycbwgalEQxxqSoJQXsq8RV4j6az0L6X7jNmCq1I9mZr-11OQNKxgj4y05q2cd-Sc1KqbT/exec"
+                  id="rsvpform"
+                  class="gform">
               <div class="col-md-6">
-                <div id="fullname" class="form-group">
-                  <label for="inputname">*NAME</label>
+                <div id="name" class="form-group">
+                  <label for="name">*NAME</label>
                   <input
                     type="text"
                     class="form-control ajax-input"
-                    id="inputname"
+                    id="name"
+                    name="name"
                     placeholder=""
                     data-required="Name Required"
-                    data-output-label="Output Name"
                   />
                 </div>
                 <div id="email" class="form-group">
@@ -1582,20 +1585,31 @@
                   <input
                     type="email"
                     class="form-control ajax-input"
-                    id="inputemail"
+                    id="email"
+                    name="email"
                     placeholder=""
                     data-required="Email Required"
-                    data-output-label="Output Email"
+                  />
+                </div>
+                <div id="invite_code" class="form-group">
+                  <label for="invite_code">*INVITE CODE</label>
+                  <input
+                    type="text"
+                    class="form-control ajax-input"
+                    id="invite_code"
+                    name="invite_code"
+                    placeholder=""
+                    data-required="Code Required"
                   />
                 </div>
                 <div id="events" class="form-group">
-                  <label for="inputevents">*I WILL ATTEND TO</label>
+                  <label for="events">*I WILL ATTEND TO</label>
                   <select
                     multiple
-                    id="inputevents"
+                    id="events"
+                    name="events"
                     class="form-control ajax-input"
                     data-required="Please Select Events"
-                    data-output-label="Output Events"
                   >
                     <option>Pre-wedding Day</option>
                     <option>Bride wedding Day</option>
@@ -1605,12 +1619,12 @@
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="inputmessage">LEAVE YOUR MESSAGE</label>
+                  <label for="message">LEAVE YOUR MESSAGE</label>
                   <textarea
-                    id="inputmessage"
+                    id="message"
+                    name="message"
                     class="form-control ajax-input"
                     rows="14"
-                    data-output-label="Output Message"
                   ></textarea>
                 </div>
               </div>
