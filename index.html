@@ -157,6 +157,17 @@
           class="bottom-bar outside fluid-width block-color nav-center sticky-nav animation fadeIn"
         >
           <div id="nav-wrapper">
+            <div class="logo-wrapper">
+              <!-- CSS LOGO -->
+              <a href="index.html">
+                <div class="css-logo rounded">
+                  <div class="css-logo-text">
+                    <strong>H</strong><i class="de-icon-heart-1"></i><strong>T</strong>
+                  </div>
+                </div>
+              </a>
+
+            </div>
             <div id="mobile-nav">
               <i class="de-icon-menu"></i>
             </div>
@@ -171,7 +182,7 @@
               <li>
                 <a href="#where-when">WHERE &amp; WHEN</a>
               </li>
-              <li class="first-child">
+              <li class="first-child logo-item">
                 <!-- LOGO -->
                 <div class="logo-wrapper">
                   <!-- CSS LOGO -->
@@ -1556,65 +1567,67 @@
                   action="https://script.google.com/macros/s/AKfycbwgalEQxxqSoJQXsq8RV4j6az0L6X7jNmCq1I9mZr-11OQNKxgj4y05q2cd-Sc1KqbT/exec"
                   id="rsvpform"
                   class="gform">
-              <div class="col-md-6">
-                <div id="name" class="form-group">
-                  <label for="name">*NAME</label>
-                  <input
-                    type="text"
-                    class="form-control ajax-input"
-                    id="name"
-                    name="name"
-                    placeholder=""
-                    data-required="Name Required"
-                  />
+              <div class="row">
+                <div class="col-md-6">
+                  <div id="name" class="form-group">
+                    <label for="name">*NAME</label>
+                    <input
+                      type="text"
+                      class="form-control ajax-input"
+                      id="name"
+                      name="name"
+                      placeholder=""
+                      data-required="Name Required"
+                    />
+                  </div>
+                  <div id="email" class="form-group">
+                    <label for="inputemail">*EMAIL</label>
+                    <input
+                      type="email"
+                      class="form-control ajax-input"
+                      id="email"
+                      name="email"
+                      placeholder=""
+                      data-required="Email Required"
+                    />
+                  </div>
+                  <div id="invite_code" class="form-group">
+                    <label for="invite_code">*INVITE CODE</label>
+                    <input
+                      type="text"
+                      class="form-control ajax-input"
+                      id="invite_code"
+                      name="invite_code"
+                      placeholder=""
+                      data-required="Code Required"
+                    />
+                  </div>
+                  <div id="events" class="form-group">
+                    <label for="events">*I WILL ATTEND TO</label>
+                    <select
+                      multiple
+                      id="events"
+                      name="events"
+                      class="form-control ajax-input"
+                      data-required="Please Select Events"
+                    >
+                      <option>Pre-wedding party</option>
+                      <option>Bride's family party</option>
+                      <option>Groom's family party</option>
+                      <option>Unable to attend</option>
+                    </select>
+                  </div>
                 </div>
-                <div id="email" class="form-group">
-                  <label for="inputemail">*EMAIL</label>
-                  <input
-                    type="email"
-                    class="form-control ajax-input"
-                    id="email"
-                    name="email"
-                    placeholder=""
-                    data-required="Email Required"
-                  />
-                </div>
-                <div id="invite_code" class="form-group">
-                  <label for="invite_code">*INVITE CODE</label>
-                  <input
-                    type="text"
-                    class="form-control ajax-input"
-                    id="invite_code"
-                    name="invite_code"
-                    placeholder=""
-                    data-required="Code Required"
-                  />
-                </div>
-                <div id="events" class="form-group">
-                  <label for="events">*I WILL ATTEND TO</label>
-                  <select
-                    multiple
-                    id="events"
-                    name="events"
-                    class="form-control ajax-input"
-                    data-required="Please Select Events"
-                  >
-                    <option>Pre-wedding party</option>
-                    <option>Bride's family party</option>
-                    <option>Groom's family party</option>
-                    <option>Unable to attend</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="message">LEAVE YOUR MESSAGE</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    class="form-control ajax-input"
-                    rows="14"
-                  ></textarea>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="message">LEAVE YOUR MESSAGE</label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      class="form-control ajax-input"
+                      rows="14"
+                    ></textarea>
+                  </div>
                 </div>
               </div>
               <div class="col-md-12 text-center">
