@@ -4043,13 +4043,8 @@ p{
     display: flex;
 }
 
-#rsvpform>div.row>div:nth-child(2)>div {
-    height: 100%;
-    padding-bottom: 55px;
-}
-
 #message {
-    height: 100%;
+    padding-bottom: 18px;
 }
 
 .hashtag {
